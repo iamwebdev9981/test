@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+
+	background: blue;
+}
+
+.fitimg{
+
+	width: 100px;
+	height: 100px;
+	background: white;
+	position: relative;
+	display: inline-block;
+	margin: 20px;
+
+}
+
+.dragimg{
+
+	position: absolute;
+	
+	width: 80px;
+	height: 80px;
+
+
+     background: red; 
+    border-radius: 50px;
+    left: 10px;
+    top: 5px;
+}
+
+.hold{
+
+	border: 5px solid black;
+}
+
+
+.hide{
+
+	display: none;
+}
+
+.dashed{
+
+	border-style: dashed;
+	background: lightgrey;
+}
